@@ -1,10 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
 html {
-    font-family: '  Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.nameform {
-    margin-top: 1vh;
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    width: 50%;
+    margin: auto;
+}
+
+.identity-form input, .identity-form select{
+  width: 30%;
+  height: 30px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+div.mark-form {
+    margin-top: 3vh;
+}
+
+fieldset.oreo-form {
+    margin-top: 3vh;
 }

@@ -1,36 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Oréo - Programme de fidélité</title>
-</head>
-<header>
+  </head>
+  <header>
     <h1>Programme de Fidélité OREO</h1>
-</header>
+  </header>
 
-<body>
-    <form>
-        <fieldset class="id">
-            <legend>Qui êtes-vous ?</legend>
-            <div>
-                <label for="genre">Genre:</label>
-                <select name="genre" id="genre">
-                    <option value="" selected disabled>Veuillez choisir une option</option>
-                    <option value="Homme">Homme</option>
-                    <option value="Femme">Femme</option>
-                </select>
-            </div>
-            <div class="nameform">
-                <label for="name">Nom</label>
-                <input type="text" name="name" id="name" placeholder="Dupont">
-            </div>
-        </fieldset>
-        </fieldset>
+  <body>
+    <form method="post">
+      <fieldset class="identity-form">
+        <legend>Qui êtes-vous ?</legend>
+        <div>
+          <label for="genre">Genre : </label>
+          <select name="genre" id="genre">
+            <option value="" selected disabled>
+              Veuillez choisir une option
+            </option>
+            <option value="Homme">Homme</option>
+            <option value="Femme">Femme</option>
+          </select>
+        </div>
+        <div>
+          <label for="lastname">Nom : </label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Dupont"
+          />
+        </div>
+        <div>
+          <label for="firstname">Prénom : </label>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Jean"
+          />
+        </div>
+      </fieldset>
+
+      <fieldset class="oreo-form">
+        <legend>Les Oréos et vous</legend>
+        <div>
+          <p>Combien de paquets d'Oréos consommez-vous chaque mois ?</p>
+          <input type="radio" name="consumption" value="1ou2" id="1ou2" />
+          <label for="1ou2">1 ou 2</label><br />
+          <input type="radio" name="consumption" value="3ou4" id="3ou4" />
+          <label for="3ou4">3 ou 4</label><br />
+          <input
+            type="radio"
+            name="consumption"
+            value="infinite"
+            id="infinite"
+          />
+          <label for="infinite">Je ne les compte même plus</label>
+        </div>
+        <div class="mark-form">
+          <label for="mark">Comment avez-vous connu la marque ?</label>
+          <select name="mark" id="mark">
+            <option value="" selected disabled>
+              Veuillez choisir une option
+            </option>
+            <option value="En magasin">En magasin</option>
+            <option value="Par des amis ou la famille">Par des amis ou la famille</option>
+            <option value="Grâce &agrave; une publicité">Grâce à une publicité</option>
+            <option value="Autre">Autre</option>
+          </select>
+        </div>
+      </fieldset>
     </form>
-</body>
-
+  </body>
 </html>
