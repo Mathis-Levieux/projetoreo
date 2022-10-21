@@ -27,8 +27,8 @@ h1 {
 
 header {
   background-image: linear-gradient(to bottom,
-    rgba(255, 255, 255, 0) 90%,
-    rgb(255, 255, 255) 100%), 
+      rgba(255, 255, 255, 0) 90%,
+      rgb(255, 255, 255) 100%),
     url("../img/bigoreo.png");
   height: 80vh;
   background-position: center;
@@ -38,8 +38,9 @@ header {
 }
 
 legend {
-  padding-bottom: 2vh;
+  padding-bottom: 4vh;
   color: rgb(0, 0, 0);
+  font-size: 2rem;
 }
 
 fieldset {
@@ -101,9 +102,9 @@ div.suggestion {
 .sendbutton {
   display: block;
   margin: 1vh auto auto auto;
-  background-color: #17a2b8;
+  background-color: rgba(253, 253, 40, 0.985);
   color: black;
-  border-color: #17a2b8;
+  border-color: rgba(253, 253, 40, 0.985);
   border-radius: 3px;
   font-family: 'Amatic SC', cursive;
   font-size: 2rem;
@@ -111,7 +112,7 @@ div.suggestion {
 }
 
 .sendbutton:hover {
-  background-color: rgba(253, 253, 40, 0.985);
+  background-color: #17a2b8;
 }
 
 .oreoimg {

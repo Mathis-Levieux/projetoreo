@@ -27,8 +27,8 @@ h1 {
 
 header {
   background-image: linear-gradient(to bottom,
-    rgba(255, 255, 255, 0) 90%,
-    rgb(255, 255, 255) 100%), 
+      rgba(255, 255, 255, 0) 90%,
+      rgb(255, 255, 255) 100%),
     url("../img/biggoldoreo.png");
   height: 80vh;
   background-position: top;
@@ -36,7 +36,9 @@ header {
 }
 
 legend {
-  padding-bottom: 2vh;
+  padding-bottom: 4vh;
+  color: #17a2b8;
+  font-size: 2rem;
 }
 
 fieldset {
