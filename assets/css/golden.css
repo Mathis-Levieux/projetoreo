@@ -176,10 +176,26 @@ div.suggestion {
 
 .oreo-logo2 {
   position: absolute;
-  top: 185%;
+  top: 175%;
   right: 5%
 }
 
 form {
   margin-top: 4%;
+}
+
+.padding1 {
+  margin-top: -3.4vh;
+}
+
+.padding2 {
+  margin-top: -5vh;
+}
+
+.padding3 {
+  margin-top: -3vh;
+}
+
+.padding4 {
+  margin-top: -3vh;
 }

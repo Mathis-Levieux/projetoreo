@@ -27,7 +27,7 @@
     <form method="post">
         <fieldset class="identity-form">
             <legend>Qui êtes-vous ?</legend>
-            <div>
+            <div class="padding1">
                 <label for="genre">Genre : </label>
                 <select name="genre" id="genre" required>
                     <option value="" selected disabled>
@@ -49,7 +49,7 @@
 
         <fieldset class="oreo-form">
             <legend>Les Oréos et vous</legend>
-            <div>
+            <div class="padding2">
                 <p>Combien de paquets d'Oréos consommez-vous chaque mois ?</p>
                 <input type="radio" name="consumption" value="1ou2" id="1ou2" required />
                 <label for="1ou2">1 ou 2</label>
@@ -81,7 +81,7 @@
 
         <fieldset class="suggestion-form">
             <legend>Votre avis compte !</legend>
-            <div class="suggestion">
+            <div class="suggestion, padding3">
                 <label for="suggestion">Avez-vous un commentaire ou une suggestion à partager ?
                 </label>
                 <textarea name="suggestion" id="suggestion" rows="4" cols="50" placeholder="Votre texte ici..."
@@ -90,12 +90,14 @@
         </fieldset>
         <fieldset class="checkboxes">
             <legend>Merci de cocher les cases !</legend>
+            <div class="padding4">
             <input type="checkbox" name="news" id="news"> <label for="news">Je souhaite m'inscrire à la newsletter
                 Oréo</label>
             <div><input type="checkbox" name="cgu" id="cgu" required> <label for="cgu">J'accepte les Conditions
                     Générales d'Utilisation</label></div> <!-- Div pour sauter la ligne -->
             <input type="checkbox" name="data" id="data" required> <label for="data">En soumettant ce formulaire, vous
                 acceptez que les informations saisies soient enregistrées et puissent être utilisées</label>
+            </div>
         </fieldset>
         <input class="sendbutton" type="submit" value="Envoyer" />
     </form>
