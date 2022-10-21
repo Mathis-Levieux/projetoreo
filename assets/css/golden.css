@@ -85,9 +85,9 @@ fieldset.checkboxes {
 
 textarea#suggestion {
   /* Détermine la taille minimale et maximale pour le textarea du "Votre avis compte" */
-  width: 25vw;
+  width: 100%;
   height: 10vh;
-  max-width: 40vw;
+  max-width:38vw;
   max-height: 20vh;
   min-width: 10vw;
   min-height: 5vh;
