@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
-* {
+body, html {
   margin: 0;
   padding: 0;
 }
@@ -10,8 +10,7 @@ html {
   font-family: "Josefin Sans", sans-serif;
   min-height: 100vh;
   font-size: 1rem;
-  background: rgb(255, 255, 0);
-  background: linear-gradient(0deg, rgb(255, 255, 0) 20%, rgba(253, 244, 194, 0.996) 70%);
+  background-color: white;
   margin: 0;
 }
 
@@ -22,6 +21,7 @@ h1 {
   text-decoration:underline;
   font-family: 'Amatic SC', cursive;
   font-size: 4rem;
+  margin: 0;
 }
 
 header {
@@ -31,10 +31,10 @@ header {
 }
 
 fieldset {
-  /*Définit la largeur et le c */
   width: 50%;
   margin: auto;
-  border-color: white;
+  border-color: rgba(253, 253, 40, 0.985);
+  color: #17a2b8;
 }
 
 .identity-form input,
@@ -76,11 +76,6 @@ div.suggestion {
   height: 5vh;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-}
-
 .oreoimg {
   display: block;
   margin: 0 auto 0 auto;
@@ -89,4 +84,8 @@ footer {
 .oreo-logo {
   position:relative;
   top: -80px;
+}
+
+form {
+  margin-top: 4%;
 }
