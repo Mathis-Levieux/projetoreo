@@ -1,107 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="icon" type="image/png" href="assets/img/oero-logo.png" sizes="32x32">
-    <title>Oréo - Enquête de fidélité</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Quel Oréo préférez-vous ?</title>
 </head>
-<header>
-    <h1>ENQUÊTE DE FIDELITE</h1>
-    <img class="oreo-logo" src="assets/img/oero-logo.png" alt="oreo">
-</header>
-
 <body>
-    <img class="oreoimg" src="assets/img/goldoreo.png" alt="goldenoreo" width="250px" height="250px" />
-    <img class="oreoimg2" src="assets/img/goldoreo2.png" alt="goldenoreo" />
-    <img class="oreoimg3" src="assets/img/oreo.png" alt="blackoreo" width="250px" height="250px" />
-    <img class="oreoimg4" src="assets/img/oreo.png" alt="blackoreo" width="250px" height="250px" />
-    <img class="oreoimg5" src="assets/img/oreo.png" alt="blackoreo" width="250px" height="250px" />
-    <img class="oreoimg6" src="assets/img/oreo.png" alt="blackoreo" width="250px" height="250px" />
-    <img class="oreoimg7" src="assets/img/oreo.png" alt="blackoreo" width="250px" height="250px" />
-    <img class="oreoimg8" src="assets/img/oreo.png" alt="blackoreo" width="250px" height="250px" />
-    <img class="oreo-logo2" src="assets/img/oero-logo.png" alt="oreo" width="250px" height="180px">
-    <form method="post">
-        <fieldset class="identity-form">
-            <legend>Qui êtes-vous ?</legend>
-            <div>
-                <label for="genre">Genre : </label>
-                <select name="genre" id="genre" required>
-                    <option value="" selected disabled>
-                        Veuillez choisir une option
-                    </option>
-                    <option value="Homme">Homme</option>
-                    <option value="Femme">Femme</option>
-                </select>
-            </div>
-            <div>
-                <label for="lastname">Nom : </label>
-                <input type="text" name="lastname" id="lastname" placeholder="Exemple: Dupont" required />
-            </div>
-            <div>
-                <label for="firstname">Prénom : </label>
-                <input type="text" name="firstname" id="firstname" placeholder="Exemple: Thierry" required />
-            </div>
-        </fieldset>
+    <h1>QUEL ORÉO ÉTES-VOUS ?</h1>
+        <div class="container">
+            <a class="goldenlink" href="golden.html"><img alt="goldoreo" id="goldoreo" src="./assets/img/goldoreo.png"/></a>
+            <a class="originallink" href="original.html"><img alt="oreo" id="oreo" src="./assets/img/oreo.png"/></a>
+         </div>
 
-        <fieldset class="oreo-form">
-            <legend>Les Oréos et vous</legend>
-            <div>
-                <p>Combien de paquets d'Oréos consommez-vous chaque mois ?</p>
-                <input type="radio" name="consumption" value="1ou2" id="1ou2" required />
-                <label for="1ou2">1 ou 2</label>
-                <div>
-                    <!-- div pour passer à la ligne sans utiliser br -->
-                    <input type="radio" name="consumption" value="3ou4" id="3ou4" required />
-                    <label for="3ou4">3 ou 4</label>
-                </div>
-                <input type="radio" name="consumption" value="infinite" id="infinite" required />
-                <label for="infinite">Je ne les compte même plus</label>
-            </div>
-            <div class="mark-form">
-                <label for="mark">Comment avez-vous connu la marque ?</label>
-                <select name="mark" id="mark" required>
-                    <option value="" selected disabled>
-                        Veuillez choisir une option
-                    </option>
-                    <option value="En magasin">En magasin</option>
-                    <option value="Par des amis ou la famille">
-                        Par des amis ou la famille
-                    </option>
-                    <option value="Grâce &agrave; une publicité">
-                        Grâce à une publicité
-                    </option>
-                    <option value="Autre">Autre</option>
-                </select>
-            </div>
-        </fieldset>
 
-        <fieldset class="suggestion-form">
-            <legend>Votre avis compte !</legend>
-            <div class="suggestion">
-                <label for="suggestion">Avez-vous un commentaire ou une suggestion à partager ?
-                </label>
-                <textarea name="suggestion" id="suggestion" rows="4" cols="50" placeholder="Votre texte ici..."
-                    maxlength="1000"></textarea>
-            </div>
-        </fieldset>
-        <fieldset class="checkboxes">
-            <legend>Merci de cocher les cases !</legend>
-            <input type="checkbox" name="news" id="news"> <label for="news">Je souhaite m'inscrire à la newsletter
-                Oréo</label>
-            <div><input type="checkbox" name="cgu" id="cgu" required> <label for="cgu">J'accepte les Conditions
-                    Générales d'Utilisation</label></div> <!-- Div pour sauter la ligne -->
-            <input type="checkbox" name="data" id="data" required> <label for="data">En soumettant ce formulaire, vous
-                acceptez que les informations saisies soient enregistrées et puissent être utilisées</label>
-        </fieldset>
-        <input class="sendbutton" type="submit" value="Envoyer" />
-    </form>
+        
+    
 </body>
-<footer>
-    <div>© 2022 Oréo France – Tous droits réservés.</div>
-</footer>
-
 </html>

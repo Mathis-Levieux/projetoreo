@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+  min-height: 100vh;
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5vh;
+  color: white;
+  text-decoration: underline;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4rem;
+  margin: 0;
+}
+
+header {
+  background-image: linear-gradient(to bottom,
+    rgba(255, 255, 255, 0) 90%,
+    rgb(255, 255, 255) 100%), 
+    url("../img/bigoreo.png");
+  height: 80vh;
+  background-position: center;
+  background-color: #17a2b8;
+  background-repeat: no-repeat;
+
+}
+
+legend {
+  padding-bottom: 2vh;
+  color: rgb(0, 0, 0);
+}
+
+fieldset {
+  width: 50%;
+  margin: auto;
+  border: 0;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 1px 2px 1px 3px #17a2b8;
+}
+
+fieldset.identity-form {
+  margin-left: 30%;
+}
+
+fieldset.oreo-form {
+  margin-right: 30%;
+}
+
+fieldset.suggestion-form {
+  margin-left: 30%;
+}
+
+fieldset.checkboxes {
+  margin-right: 30%;
+}
+
+.identity-form input,
+.identity-form select {
+  /*Définit les caractéristiques des input, select etc */
+  width: 30%;
+  height: 3vh;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.oreo-form,
+.mark-form,
+.suggestion-form,
+.checkboxes {
+  /* Ajoute du margin top à chaque questionnaire qui le nécessite */
+  margin-top: 3vh;
+}
+
+textarea#suggestion {
+  /* Détermine la taille minimale et maximale pour le textarea du "Votre avis compte" */
+  width: 40vw;
+  height: 20vh;
+  max-width: 40vw;
+  max-height: 20vh;
+  min-width: 10vw;
+  min-height: 5vh;
+}
+
+div.suggestion {
+  /* Margin pour espacer la section "Votre avis compte" */
+  margin-top: 1vh;
+}
+
+.sendbutton {
+  display: block;
+  margin: 1vh auto auto auto;
+  background-color: #17a2b8;
+  color: black;
+  border-color: #17a2b8;
+  border-radius: 3px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sendbutton:hover {
+  background-color: rgba(253, 253, 40, 0.985);
+}
+
+.oreoimg {
+  position: absolute;
+  top: 80%;
+  left: 7%;
+}
+
+.oreoimg2 {
+  position: absolute;
+  top: 117%;
+  right: 10%;
+}
+
+
+.oreoimg3 {
+  position: absolute;
+  top: 130%;
+  left: 4%;
+  z-index: 0;
+}
+
+.oreoimg4 {
+  position: absolute;
+  top: 140%;
+  left: 4%;
+  z-index: 2;
+}
+
+.oreoimg5 {
+  position: absolute;
+  top: 150%;
+  left: 4%;
+  z-index: 4;
+}
+
+.oreoimg6 {
+  position: absolute;
+  top: 130%;
+  left: -2%;
+  z-index: 1;
+}
+
+.oreoimg7 {
+  position: absolute;
+  top: 140%;
+  left: -2%;
+  z-index: 3;
+}
+
+.oreoimg8 {
+  position: absolute;
+  top: 150%;
+  left: -2%;
+  z-index: 5;
+}
+
+.oreo-logo {
+  position: relative;
+  top: -80px;
+}
+
+.oreo-logo2 {
+  position: absolute;
+  top: 175%;
+  right: 5%
+}
+
+form {
+  margin-top: 4%;
+}
