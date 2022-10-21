@@ -26,9 +26,13 @@ h1 {
 }
 
 header {
-  background-image: url("../img/biggoldoreo.png");
+  background-image: linear-gradient(to bottom,
+    rgba(255, 255, 255, 0) 90%,
+    rgb(255, 255, 255) 100%), 
+    url("../img/biggoldoreo.png");
   height: 80vh;
   background-position: center;
+
 }
 
 legend {
@@ -38,9 +42,10 @@ legend {
 fieldset {
   width: 50%;
   margin: auto;
-  border-color: rgba(253, 253, 40, 0.985);
+  border: 0;
   color: #17a2b8;
   background-color: rgba(253, 253, 40, 0.801);
+  box-shadow: 1px 2px 1px 3px #17a2b8;
 }
 
 fieldset.identity-form {
@@ -101,6 +106,10 @@ div.suggestion {
   font-family: 'Amatic SC', cursive;
   font-size: 2rem;
   text-align: center;
+}
+
+.sendbutton:hover {
+  background-color: rgba(253, 253, 40, 0.985);
 }
 
 .oreoimg {
