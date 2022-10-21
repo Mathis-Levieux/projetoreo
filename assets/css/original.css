@@ -101,7 +101,7 @@ div.suggestion {
 
 .sendbutton {
   display: block;
-  margin: 1vh auto auto auto;
+  margin: 3vh auto auto auto;
   background-color: rgba(253, 253, 40, 0.985);
   color: black;
   border-color: rgba(253, 253, 40, 0.985);
@@ -177,7 +177,7 @@ div.suggestion {
 
 .oreo-logo2 {
   position: absolute;
-  top: 175%;
+  top: 185%;
   right: 5%
 }
 
