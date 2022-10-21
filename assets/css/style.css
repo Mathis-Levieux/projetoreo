@@ -3,7 +3,9 @@
 html {
   font-family: "Josefin Sans", sans-serif;
   min-height: 100vh;
-    font-size: 1rem;
+  font-size: 1rem;
+  background: rgb(255,255,0);
+  background: linear-gradient(0deg, rgb(255, 255, 0) 0%, rgba(253, 244, 194, 0.996) 100%);
 }
 
 h1 {
@@ -58,4 +60,9 @@ div.suggestion {
 footer {
   position: fixed;
   bottom: 0;
+}
+
+.oreoimg {
+  display: block;
+  margin: 0 auto 0 auto;
 }
