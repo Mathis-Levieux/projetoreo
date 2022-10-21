@@ -45,7 +45,7 @@ fieldset {
   border: 0;
   color: #17a2b8;
   background-color: rgba(253, 253, 40, 0.801);
-  box-shadow: 1px 2px 1px 3px #17a2b8;
+  box-shadow: 1px 1px 15px 3px #17a2b8;
 }
 
 fieldset.identity-form {
