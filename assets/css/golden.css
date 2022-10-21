@@ -42,7 +42,7 @@ legend {
 }
 
 fieldset {
-  width: 50%;
+  width: 40%;
   margin: auto;
   border: 0;
   color: #17a2b8;
@@ -85,8 +85,8 @@ fieldset.checkboxes {
 
 textarea#suggestion {
   /* Détermine la taille minimale et maximale pour le textarea du "Votre avis compte" */
-  width: 40vw;
-  height: 20vh;
+  width: 25vw;
+  height: 10vh;
   max-width: 40vw;
   max-height: 20vh;
   min-width: 10vw;
@@ -176,7 +176,7 @@ div.suggestion {
 
 .oreo-logo2 {
   position: absolute;
-  top: 175%;
+  top: 170%;
   right: 5%
 }
 

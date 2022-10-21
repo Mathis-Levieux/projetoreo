@@ -44,11 +44,11 @@ legend {
 }
 
 fieldset {
-  width: 50%;
+  width: 40%;
   margin: auto;
   border: 0;
   color: black;
-  box-shadow: 1px 1px 15px 3px #17a2b8;
+  box-shadow: 1px 1px 25px 1px #17a2b8;
 }
 
 fieldset.identity-form {
@@ -86,8 +86,8 @@ fieldset.checkboxes {
 
 textarea#suggestion {
   /* Détermine la taille minimale et maximale pour le textarea du "Votre avis compte" */
-  width: 40vw;
-  height: 20vh;
+  width: 25vw;
+  height: 10vh;
   max-width: 40vw;
   max-height: 20vh;
   min-width: 10vw;
@@ -177,7 +177,7 @@ div.suggestion {
 
 .oreo-logo2 {
   position: absolute;
-  top: 180%;
+  top: 170%;
   right: 5%
 }
 

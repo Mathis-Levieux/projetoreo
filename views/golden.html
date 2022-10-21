@@ -28,22 +28,16 @@
         <fieldset class="identity-form">
             <legend>Qui êtes-vous ?</legend>
             <div class="padding1">
-                <label for="genre">Genre : </label>
-                <select name="genre" id="genre" required>
-                    <option value="" selected disabled>
-                        Veuillez choisir une option
-                    </option>
-                    <option value="Homme">Homme</option>
-                    <option value="Femme">Femme</option>
-                </select>
+                <label for="lastname"></label>
+                <input type="text" name="lastname" id="lastname" placeholder="Nom" required />
             </div>
             <div>
-                <label for="lastname">Nom : </label>
-                <input type="text" name="lastname" id="lastname" placeholder="Exemple: Dupont" required />
+                <label for="firstname"></label>
+                <input type="text" name="firstname" id="firstname" placeholder="Prénom" required />
             </div>
             <div>
-                <label for="firstname">Prénom : </label>
-                <input type="text" name="firstname" id="firstname" placeholder="Exemple: Thierry" required />
+                <label for="email"></label>
+                <input type="text" name="email" id="email" placeholder="Email" required />
             </div>
         </fieldset>
 
