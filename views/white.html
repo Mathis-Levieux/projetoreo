@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/white.css" />
+    <link rel="icon" type="image/png" href="../assets/img/oero-logo.png" sizes="32x32">
+    <title>Oréo - Enquête de fidélité</title>
+</head>
+<header>
+    <h1>ORÉO <br><span>ET <span class="vous">VOUS</span></span>
+    </h1>
+</header>
+<body>
+    <main>
+        <form>
+            <fieldset class="namefieldset">
+                <div class="survey">
+                    <label for="lastname"></label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Nom : " maxlength="40" required title="" />
+                </div>
+                <div class="survey">
+                    <label for="firstname"></label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Prénom : " maxlength="40" required title="" />
+                </div>
+                <div class="survey">
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email" placeholder="Email : " maxlength="80" required title="" />
+                </div>
+            </fieldset>
+            <fieldset class="oreofieldset">
+                <div class="survey radiosurvey">
+                    <p>Combien de paquets d'Oréos consommez-vous chaque mois ?</p>
+                    <div>
+                        <input class="radio" type="radio" name="consumption" value="1ou2" id="1ou2" required />
+                        <label for="1ou2">1 ou 2</label>
+                    </div>
+                    <div>
+                        <input class="radio" type="radio" name="consumption" value="3ou4" id="3ou4" required />
+                        <label for="3ou4">3 ou 4</label>
+                    </div>
+                    <div>
+                        <input class="radio" type="radio" name="consumption" value="infinite" id="infinite" required />
+                        <label for="infinite">Je ne les compte même plus !</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="brandnamefieldset">
+                <div class="brandnamesurvey">
+                  <label for="brandname">Comment avez-vous connu notre marque ?</label>
+                  <select name="brandname" id="brandname" required>
+                    <option value="" selected disabled> Veuillez choisir une option</option>
+                    <option value="tv">Télévision</option>
+                    <option value="radio">Radio</option>
+                    <option value="internet">Internet et réseaux sociaux</option>
+                    <option value="magasin">Magasin</option>
+                    <option value="autre">Autre</option>
+                  </select>
+                </div>
+              </fieldset>
+              <fieldset class="checkboxfieldset">
+                <div class="checkboxsurvey">
+                    <div>
+                      <input class="checkbox" type="checkbox" name="news" id="news" />
+                      <label for="news">Je souhaite recevoir des informations concernant les nouveaux produits Oréo</label>
+                    </div>
+                    <div>
+                      <input class="checkbox" type="checkbox" name="cgu" id="cgu" required>
+                      <label for="cgu">J'accepte les Conditions Générales d'Utilisation</label>
+                    </div>
+                    <div>
+                      <input class="checkbox" type="checkbox" name="data" id="data" required> 
+                      <label for="data">En soumettant ce formulaire, vous acceptez que les informations saisies soient enregistrées et puissent être utilisées</label>
+                    </div>
+                </div>
+            </fieldset>
+            <input class="sendbutton" type="submit" value="Envoyer" />
+         </form>
+    </main>
+
+    
+</body>
+<footer>
+    <div>© 2022 Oréo France – Tous droits réservés.</div>
+</footer>
+</html>
